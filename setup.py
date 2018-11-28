@@ -12,6 +12,7 @@ setuptools.setup(
     install_requires=[
         'numpy',
         'scipy',
+        'networkx',
         # We don't depend on `tensorflow` or `tensorflow-gpu` here, since one or the other is sufficient.
     ],
     packages=['blocksparse'],
